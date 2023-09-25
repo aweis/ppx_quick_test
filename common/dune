@@ -1,2 +1,2 @@
-(library (name ppx_quick_test_common) (libraries base)
+(library (name ppx_quick_test_common) (public_name ppx_quick_test.ppx_quick_test_common) (libraries base)
  (preprocess (pps ppx_jane)))
